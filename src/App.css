@@ -1,0 +1,127 @@
+:root {
+  /* Color palettes: https://colorhunt.co/palette/f5f3c127e1c10ea2932f0f5d */
+  --col1: #222831;
+  --col2: #393E46;
+  --col3: #00ADB5;
+  --col4: #EEEEEE;
+
+  /* --col1: #F6F1F1;
+  --col2: #19A7CE;
+  --col3: #146C94;
+  --col4: #000000; */
+  
+  --cross: #a20c2a;
+}
+
+* {
+  background-color: var(--col1);
+}
+
+.arguments {
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.flex-column-center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flex-row-center {
+  display: flex;
+  justify-content: center;
+  margin: 3px;
+}
+
+.argsBtn {
+  width: 100px;
+  align-self: center;
+  margin: 10px;
+  padding: 3px;
+  border-radius: 6px;
+  border-style: none;
+  background-color: var(--col4);
+  color: var(--col1);
+  font-weight: bold;
+}
+
+input {
+  border-radius: 6px 0px 0px 6px;
+  border-style: none;
+  padding: 5px;
+  background-color: var(--col2);
+  color: #eaf9f6;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+
+input::placeholder {
+  color: #1b696e;
+}
+
+.argsSelect {
+  padding: 5px;
+  background-color: var(--col3);
+  font-weight: bold;
+  color: #032738;
+  border-radius: 0px 6px 6px 0px;
+  border-style: none;
+}
+
+.argsSelect > option {
+  background-color: var(--col2);
+  color: var(--col3);
+  font-weight: bold;
+}
+
+.opsSelect {
+  width: 100px;
+  padding: 5px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  background-color: var(--col2);
+  color: #eaf9f6;
+  border-radius: 6px 0px 0px 6px;
+  border-style: none;
+}
+
+.opsSelect > option {
+  background-color: var(--col2);
+  color: var(--col3);
+  font-weight: bold;
+}
+
+.opsBtn {
+  background-color: var(--col3);
+  color: var(--cross);
+  border-radius: 0px 6px 6px 0px;
+  border-style: none;
+  width: 25px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+h2 {
+  margin: 0px 0px 10px;
+  color: var(--col4);
+}
+
+h5 {
+  align-self: center;
+  color: var(--col4);
+}
+
+.opsArguments {
+  align-self: center;
+}
+
+.subargs {
+  margin-left: 40px;
+}
+
+hr {
+  width: 600px;
+}
